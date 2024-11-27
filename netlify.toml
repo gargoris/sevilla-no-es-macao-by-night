@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "git submodule update --init --recursive && hugo"  
+  command = "hugo"  
   functions = "netlify/functions"
   publish = "public"
 
